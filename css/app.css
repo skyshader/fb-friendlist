@@ -1,0 +1,98 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #fbfbfb;
+    font-family: "Open Sans", sans-serif;
+}
+
+.page-header {
+    display: block;
+    background: #ffffff;
+    color: #4267b2;
+    padding: 15px;
+    text-align: center;
+    border-bottom: 1px solid #ececec;
+    margin-bottom: 20px;
+    box-shadow: 0 1px 5px rgba(0, 0, 0, 0.05);
+}
+
+.page-header h3 span {
+    color: #a2a2a2;
+    font-weight: 500;
+}
+
+.tag-line {
+    text-align: center;
+    font-weight: 900;
+    color: #90949c;
+    font-size: 22px;
+    text-shadow: #ffffff 1px 1px 0;
+    padding: 30px 0;
+    margin-top: 50px;
+}
+
+.social-wrap button {
+    height: 40px;
+    border: none;
+    display: block;
+    margin: auto;
+    background: none;
+    background-size: 35px 35px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    border-radius: 4px;
+    color: white;
+    font-size: 14px;
+    width: 250px;
+    cursor: pointer;
+    border-bottom: 2px solid transparent;
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    box-shadow: 0 4px 2px -2px gray;
+    text-shadow: rgba(0, 0, 0, 0.5) -1px -1px 0;
+}
+
+.social-wrap #facebook {
+    border-color: #2d5073;
+    background-color: #3b5998;
+    background-image: url(http://icons.iconarchive.com/icons/danleech/simple/512/facebook-icon.png);
+}
+
+.friend-list {
+    max-width: 636px;
+    margin: auto;
+}
+
+.friend {
+    position: relative;
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 5px 5px;
+    border: 1px solid #dfdfdf;
+    border-radius: 3px;
+}
+
+.friend img {
+    width: 200px;
+    height: 200px;
+}
+
+.friend .name {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    text-align: center;
+    left: 0;
+    right: 0;
+    background: linear-gradient(to bottom, transparent, rgba(0, 0, 0, 0.5));;
+    color: #fbfbfb;
+    font-size: 12px;
+    padding: 6px 0;
+    text-shadow: 0 1px 0 rgba(0, 0, 0, 0.3);
+}
